@@ -11,7 +11,7 @@ Com a revolução da Indústria 4.0, torna-se cada vez mais relevante que as emp
 
 ## Integrantes
 
-*Andressa Cordeiro Kahn
+* Andressa Cordeiro Kahn
 * Carolina Meneses de Carvalho Moura
 * Davisson José de Souza Gomes
 * Luiz Carlos Ferreira da Silva
