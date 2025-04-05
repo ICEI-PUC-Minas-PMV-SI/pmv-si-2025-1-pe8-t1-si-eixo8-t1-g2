@@ -134,10 +134,10 @@ de dados transacionais. O banco é gerenciado através da ferramenta Navicat 8, 
 oferece recursos avançados para administração, modelagem e otimização das
 consultas SQL.
 ## 2.1.6 Avaliação da disponibilidade e confiabilidade das fontes de dados
-● Disponibilidade dos dados: Os dados do sistema podem ser importados
+- Disponibilidade dos dados: Os dados do sistema podem ser importados
 através de arquivo .csv diretamente do Navicat ou poderá ser implementado
 API para importação direta do banco de dados.
-● Confiabilidade dos dados: A integridade dos dados é assegurada por meio
+- Confiabilidade dos dados: A integridade dos dados é assegurada por meio
 de restrições de integridade referencial, como chaves primárias e
 estrangeiras, garantindo consistência nas operações. O uso do Navicat 8
 facilita a auditoria e análise da estrutura do banco, permitindo identificar
