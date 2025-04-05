@@ -61,10 +61,14 @@ Oportunidades: O mercado de games e entretenimento digital continua a crescer, c
 
 Ameaças: A Eletronic Games BH também enfrenta ameaças que podem impactar sua atuação. As mudanças rápidas no comportamento do consumidor e nas tendências tecnológicas, como os lançamentos de novos consoles, exigem uma constante adaptação por parte da empresa. Outro fator que pode impactar a demanda por seus produtos e serviços é a instabilidade econômica, que pode afetar o poder de compra dos consumidores e diminuir o consumo de produtos eletrônicos.
 
-A síntese dessa análise é apresentada na Tabela 1:
+A síntese dessa análise é apresentada na tabela:
 
-![Captura de tela 2025-04-04 211111](https://github.com/user-attachments/assets/c4cb5459-e9fc-47bd-9618-fe72a7ee5548)
+### Matriz SWOT da Electronic Games BH
 
+|                      | **Fatores Internos**                                  | **Fatores Externos**                                  |
+|----------------------|--------------------------------------------------------|--------------------------------------------------------|
+| **Positivos**        | **Forças**<br><br>- Especialização no segmento de assistência técnica para videogames, com foco nas principais marcas do mercado (Sony, Microsoft e Nintendo).<br><br>- Equipe técnica altamente qualificada, com atendimento personalizado.<br><br>- Forte presença regional e reconhecimento na cidade de Belo Horizonte.<br><br>- Sistema de gestão próprio, desenvolvido sob medida, que integra processos operacionais. | **Oportunidades**<br><br>- Expansão contínua do mercado de games e entretenimento digital.<br><br>- Potencial para parcerias com fabricantes e plataformas de eventos e e-sports, fortalecendo a divulgação da marca.<br><br>- Adoção de soluções de Business Intelligence (BI) para apoio à gestão estratégica.<br><br>- Engajamento nas redes sociais como ferramenta de marketing e fidelização de clientes. |
+| **Negativos**        | **Fraquezas**<br><br>- Baixa capacidade analítica para geração de relatórios estratégicos e uso de dados para tomada de decisão.<br><br>- Forte dependência do mercado local, limitando a expansão territorial da unidade.<br><br>- Portfólio de produtos limitado frente aos concorrentes e tendências do mercado.<br><br>- Necessidade constante de atualização tecnológica para acompanhar a evolução do setor. | **Ameaças**<br><br>- Alta competitividade do setor, com presença de grandes varejistas e marketplaces oferecendo serviços agregados.<br><br>- Instabilidade econômica do país, o que pode interferir no poder de compra da população e reduzir a demanda.<br><br>- Rápida obsolescência tecnológica dos equipamentos e acessórios.<br><br>- Mudanças no comportamento do consumidor, exigindo constante adaptação de processos e serviços. |
 
 ## 1.3.4. Pesquisa de mercado
 
