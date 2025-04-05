@@ -120,20 +120,20 @@ metodologias.
 - KIQ 24 – Qual é o Tempo Médio de Espera do Cliente (TMEC)?
 Reduzir filas e tempos de espera melhora a experiência do cliente.
 
-2.1.4 Justificativa da relevância do KIT e das KIQs
+## 2.1.4 Justificativa da relevância do KIT e das KIQs
 A redução do tempo médio de manutenção é um diferencial competitivo no
 setor de assistência técnica. Um sistema de BI pode analisar padrões nos prazos de
 execução, identificar gargalos e otimizar processos, resultando em mais agilidade e
 satisfação do cliente. Além disso, pode ajudar a melhorar o planejamento de estoque
 e a produtividade da equipe técnica.
-2.1.5 Fontes de dados identificadas para obtenção dessas informações
+## 2.1.5 Fontes de dados identificadas para obtenção dessas informações
 Os dados serão obtidos através do sistema ERP desenvolvido exclusivamente
 para a empresa. O sistema utiliza um banco de dados relacional MySQL,
 reconhecido por sua robustez e escalabilidade no armazenamento e gerenciamento
 de dados transacionais. O banco é gerenciado através da ferramenta Navicat 8, que
 oferece recursos avançados para administração, modelagem e otimização das
 consultas SQL.
-2.1.6 Avaliação da disponibilidade e confiabilidade das fontes de dados
+## 2.1.6 Avaliação da disponibilidade e confiabilidade das fontes de dados
 ● Disponibilidade dos dados: Os dados do sistema podem ser importados
 através de arquivo .csv diretamente do Navicat ou poderá ser implementado
 API para importação direta do banco de dados.
@@ -446,12 +446,12 @@ KIQ 26 – Qual é o Tempo Médio de Espera do Cliente (TMEC)?
 - Disponibilidade: Alta
 - Confiabilidade: Alta
 
-##2.3. Planejamento da coleta e armazenamento de dados
+## 2.3. Planejamento da coleta e armazenamento de dados
 
 Este tópico tem como objetivo estruturar um plano eficiente para a coleta,
 organização e armazenamento das informações que subsidiarão a futura solução de
 Business Intelligence (BI) da empresa Electronic Games BH.
-##2.3.1. Identificação das fontes de dados
+## 2.3.1. Identificação das fontes de dados
 
 A principal fonte de dados para o sistema de Business Intelligence será o
 sistema ERP proprietário da Eletronic Games, desenvolvido em C# e com banco de
@@ -485,14 +485,14 @@ a. tblpermissao, tblpermissaopag, permissao: controle de acesso por
 usuário;
 b. mural, texto: informações e avisos internos da empresa.
 
-##2.3.2. Métodos de coleta de dados
+## 2.3.2. Métodos de coleta de dados
 
 Diante das limitações do sistema ERP atual, optou-se pela coleta de dados
 via exportação manual de arquivos no formato .csv diretamente pela ferramenta
 Navicat 8. Essa abordagem permite viabilidade técnica no curto prazo e oferece
 flexibilidade para tratamento e transformação dos dados em etapas posteriores.
 
-##2.3.3. Plano de coleta estruturado
+## 2.3.3. Plano de coleta estruturado
 
 Cronograma de coleta
 
@@ -517,7 +517,7 @@ cada uma com objetivos específicos:
 
 ![Captura de tela 2025-04-04 215413](https://github.com/user-attachments/assets/b32ee8cd-6310-4ca2-90a7-dbb978c6b1c9)
 
-##2.3.5. Métodos de organização e classificação dos dados
+## 2.3.5. Métodos de organização e classificação dos dados
 
 Os dados serão organizados com base na modelagem dimensional, adotando a
 estrutura estrela (star schema). Nesse modelo, os dados são divididos em:
