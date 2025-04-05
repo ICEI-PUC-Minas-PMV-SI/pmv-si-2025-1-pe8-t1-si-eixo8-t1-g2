@@ -542,6 +542,32 @@ simplicidade, facilidade de leitura e desempenho nas consultas analíticas, conf
 defendem Kimball e Ross (2013).
 
 ## 2.4. Análise de dados e registro de informações
+Ações:
+1 - Escolha das ferramentas de análise:
+- Power BI: O Power BI será a ferramenta principal para visualização de dados e criação de dashboards interativos. Ele permitirá a análise em tempo real de KPIs, a criação de gráficos e relatórios interativos e facilitará a tomada de decisão estratégica. 
+- dbt (Data Build Tool): O dbt será a principal ferramenta para o tratamento e transformação dos dados. Com o dbt, será possível criar pipelines de dados que limpam, estruturam e transformam dados de maneira eficiente, criando tabelas e modelos otimizados para análise. O dbt permite a aplicação de regras de negócios e a modelagem dimensional antes de enviar os dados para o Power BI. Além disso, ele possibilita versionamento e documentação das transformações de dados, o que ajuda na governança e confiabilidade dos dados.
+
+2 - Estratégia de análise:
+- Análise de tendências: Usando o Power BI, será possível analisar padrões ao longo do tempo (por exemplo, volume de reparos, tipos de defeitos mais frequentes, e tempo médio de reparo), ajudando a prever mudanças no comportamento e permitindo que a empresa se antecipe a possíveis gargalos.
+- Segmentação de clientes: O dbt será utilizado para transformar e organizar os dados de clientes, criando agrupamentos baseados em comportamentos como histórico de serviços, tipo de videogame, e tempo de resposta. O Power BI ajudará a visualizar esses segmentos e gerar insights sobre as preferências de compra e necessidades de manutenção de cada grupo de clientes.
+- Modelagem preditiva: Através do Power BI, utilizando os dados tratados com o dbt, será possível realizar análises preditivas para estimar o tempo de reparo de diferentes tipos de defeitos ou prever a demanda por determinadas peças. Isso permitirá otimizar os processos internos e reduzir tempos de espera.
+- Análise de correlação: O Power BI facilitará a análise de correlação entre variáveis (por exemplo, tempo de reparo e tipo de defeito), permitindo a identificação de fatores que afetam o desempenho operacional. A partir disso, ajustes poderão ser feitos para reduzir falhas e melhorar a produtividade.
+- Análise de KPI e métricas operacionais: Com o Power BI, os KPIs essenciais, como o Tempo Médio de Reparação, Taxa de Retrabalho  e Taxa de Conversão de Orçamentos, serão visualizados de forma clara e acessível. Isso permitirá que a equipe de gestão acompanhe o desempenho e tome decisões baseadas em dados.
+
+3 - Geração de Insights
+- Respostas para KIQs sobre tempo de manutenção e reparo: O Power BI poderá identificar quais tipos de reparos são mais demorados e quais fatores (como tipo de defeito ou modelo de videogame) impactam no tempo de reparo. O dbt ajudará a estruturar os dados de forma que permita calcular métricas como "tempo médio de reparo" por tipo de defeito.
+- Respostas sobre a produtividade da equipe técnica: O dbt processará os dados dos técnicos para calcular o desempenho, como o número de reparos feitos por período e a taxa de retrabalho. O Power BI ajudará a visualizar o desempenho de cada técnico e identificar quais técnicos precisam de mais treinamento ou recursos.
+- Respostas sobre a disponibilidade de peças: Com o tratamento de dados realizado no dbt, será possível verificar a relação entre a falta de peças e o impacto no tempo de reparo. O Power BI permitirá visualizar a disponibilidade de estoque e as taxas de ruptura, ajudando a melhorar o gerenciamento de peças.
+- Identificação de gargalos: O Power BI pode identificar onde estão os gargalos no processo de manutenção, como atrasos devido à falta de peças ou ineficiência no diagnóstico inicial. Com essas informações, a equipe pode intervir para otimizar esses processos.
+
+Relatório:
+1 - Ferramentas utilizadas para análise:
+- Power BI: Utilizado para a visualização e criação de dashboards dinâmicos com KPIs, tendências e métricas de desempenho.
+- dbt (Data Build Tool): Utilizado para o tratamento e transformação dos dados, garantindo a limpeza, padronização e modelagem dimensional dos dados antes da análise.
+
+2 - Justificativa da escolha das ferramentas de análise:
+- Power BI: O Power BI foi escolhido por sua capacidade de criar visualizações ricas e interativas que ajudam na análise de dados operacionais e financeiros. Sua capacidade de gerar dashboards dinâmicos facilitam a disseminação de insights para equipes e stakeholders em tempo real. Além disso, a flexibilidade para realizar análise de dados em tempo real e a facilidade de utilização são fundamentais para a agilidade nas decisões.
+- dbt: O dbt foi escolhido pela sua abordagem orientada a dados para transformação e modelagem de dados. Ele permite que as equipes de dados criem pipelines eficientes e escaláveis, além de garantir que as transformações sejam bem documentadas e versionadas. Isso é essencial para a governança dos dados e para garantir que os dados enviados para o Power BI estejam sempre limpos e organizados, o que aumenta a confiabilidade e a precisão das análises.
 
 ## 2.5. Disseminação e utilização das informações
 A disseminação eficaz das informações é essencial para que os insights
