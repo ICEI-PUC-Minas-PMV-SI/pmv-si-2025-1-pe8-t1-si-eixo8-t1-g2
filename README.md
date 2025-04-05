@@ -18,6 +18,11 @@ Com a revolução da Indústria 4.0, torna-se cada vez mais relevante que as emp
 * Rafael Machado Bueno
 * Gabriella Victória da Silveira Pecsén
 
+
+## Orientador
+
+* Simone Fernandes Queiroz
+
 # Etapas do projeto
 
 | Etapa         | Atividades |
@@ -26,10 +31,4 @@ Com a revolução da Indústria 4.0, torna-se cada vez mais relevante que as emp
 | ETAPA 2         |[Plano de inteligência competitiva](docs/02-competitive-intelligence-plan.md) <br> |
 | ETAPA 3         |[Desenvolvimento da solução](docs/03-solution-development.md) |
 | ETAPA 4         |  |
-
-
-
-## Orientador
-
-* Simone Fernandes Queiroz
 
