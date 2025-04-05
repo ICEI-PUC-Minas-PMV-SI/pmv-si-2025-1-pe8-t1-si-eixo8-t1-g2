@@ -1,12 +1,53 @@
- Análise da concorrência e práticas do setor
-
-Concorrentes: Incluem outras lojas especializadas em eletrônicos e games, tanto no ambiente físico quanto digital em Belo Horizonte. Além disso, grandes players atuam de maneira indireta, oferecendo uma variedade maior de produtos a preços competitivos.
-Práticas de mercado: As principais estratégias adotadas pelo setor incluem atendimento personalizado, promoções sazonais, programas de fidelidade e parcerias estratégicas com fabricantes e influenciadores.
-Pesquisa de mercado: realizada com dados do Google Trends, é revelado um cenário dinâmico para o segmento de games e eletrônicos. Abaixo estão os principais insights dessa análise:
-I) Interesse sazonal: Os dados mostram que termos como "games", "consoles" e "acessórios para jogos" têm picos de buscas em momentos de lançamento de novos produtos e durante eventos de e-sports. Essa sazonalidade indica que existem períodos estratégicos no ano em que o público está mais engajado e ativo na busca por novidades e promoções. 
-II) Comportamento do consumidor: A ferramenta aponta um aumento constante nas buscas por eletrônicos e produtos relacionados ao universo gamer. Esse padrão acompanha a crescente digitalização e o aumento do consumo de entretenimento digital, uma tendência que pode ser explorada por lojas especializadas, como a Eletronic Games Belo Horizonte.
-III) Oportunidades para o varejo especializado: A presença consistente de interesse nas categorias relacionadas a games destaca o potencial para estratégias de marketing focadas em períodos promocionais e lançamentos. Essa tendência também pode ser aproveitada em campanhas digitais, fortalecendo o posicionamento da marca frente à concorrência.
-IV) Benchmarking: Estudar as melhores práticas dos concorrentes, crescimento constante da presença digital e o uso de dados para personalizar o atendimento, pode fornecer insights valiosos para aprimorar processos internos e reforçar o posicionamento da Eletronic Games BH.
-A Eletronic Games BH atua em um segmento especializado, focado na prestação de serviços de assistência técnica e no fornecimento de produtos eletrônicos voltados para o universo dos videogames. Nesse contexto, a empresa se destaca pela sua especialização e pela qualificação de sua equipe técnica, oferecendo um atendimento personalizado, voltado às necessidades de um público específico de gamers e entusiastas de tecnologia.
-No que diz respeito à concorrência, a Eletronic Games BH enfrenta uma concorrência direta de outras lojas especializadas na venda de eletrônicos e serviços para videogames, tanto no ambiente físico quanto digital, localizadas em Belo Horizonte. Além disso, grandes varejistas e marketplaces atuam como concorrentes indiretos, oferecendo uma gama mais ampla de produtos e preços competitivos. Esses concorrentes diretos e indiretos exigem que a empresa se mantenha atenta às tendências do mercado e busque continuamente aprimorar seus processos internos e estratégias de marketing para se diferenciar.
-
+2. PLANO DE INTELIGÊNCIA COMPETITIVA
+2.1. Identificação das necessidades de Inteligência Competitiva
+2.1.1. Lista das principais decisões estratégicas da empresa
+● Previsibilidade dos prazos de manutenção: A empresa precisa estimar
+com precisão o tempo necessário para realizar consertos em diferentes
+modelos de videogames e tipos de defeitos. Isso permite definir expectativas
+realistas para os clientes e melhorar a organização interna.
+● Eficiência operacional: A redução de retrabalho e a otimização do fluxo de
+trabalho dentro da assistência técnica são essenciais para aumentar a
+produtividade da equipe e reduzir o tempo de espera dos clientes.
+● Gerenciamento da fila de atendimento: A empresa precisa estabelecer
+critérios para priorizar os atendimentos, seja por tipo de serviço, equipamento,
+complexidade do reparo ou urgência do cliente. Um sistema eficiente de
+gerenciamento de fila pode reduzir atrasos e melhorar a satisfação do cliente.
+● Disponibilidade de peças: A falta de componentes pode ser um grande
+fator de atraso nos reparos. A empresa precisa decidir quais peças devem ser
+mantidas em estoque e como melhorar a logística de reposição para evitar
+gargalos no atendimento.
+● Produtividade dos técnicos: Monitorar o desempenho da equipe é crucial
+para identificar oportunidades de capacitação, redistribuir tarefas de forma
+eficiente e estabelecer metas realistas para a execução dos reparos.
+2.1.2. Definição do Key Intelligence Topic
+O Key Intelligence Topic (KIT) definido para este projeto refere-se à
+previsibilidade dos prazos de manutenção, com foco na otimização do tempo médio
+de manutenção e reparo de videogames. Esse tema é considerado crítico para a
+eficiência operacional da assistência técnica, impactando diretamente a satisfação
+do cliente, o planejamento de estoque e a produtividade da equipe técnica.
+2.1.3. Formulação das Key Intelligence Questions
+A formulação das Key Intelligence Questions (KIQs) visa orientar a coleta e
+análise de dados de modo a transformar informações operacionais em insights
+estratégicos. As perguntas a seguir foram elaboradas com base nos objetivos
+definidos no KIT, buscando identificar pontos críticos da operação e subsidiar a
+tomada de decisões:
+● KIQ 01 – Qual é o tempo médio de execução dos diferentes tipos de
+serviço?
+Mede a eficiência dos serviços prestados, permitindo identificar quais
+consertos são mais demorados e precisam ser otimizados.
+● KIQ 02 – Qual é o tempo médio de execução dos diferentes tipos de
+equipamento?
+Consoles e acessórios possuem processos de manutenção distintos.
+Compreender essas variações ajuda na alocação de tempo e recursos.
+● KIQ 03 – Qual é o tempo médio de espera do cliente desde o
+recebimento até a entrega do videogame?
+Longos tempos de espera podem indicar ineficiência no fluxo de trabalho.
+Reduzir esse tempo melhora a experiência do cliente.
+● KIQ 04 – Qual é a variação do tempo médio de reparo entre diferentes
+tipos de consoles e defeitos?
+Alguns defeitos podem ser resolvidos rapidamente, enquanto outros exigem
+mais tempo. Essa análise ajuda na estimativa e planejamento.
+● KIQ 05 – Quais são os principais motivos de retrabalho nos reparos e
+como reduzi-los?
+Se há falhas frequentes nos reparos, isso pode gerar desperdício de tempo e
+materiais. Identificar e corrigir esses problemas melhora a eficiência.
