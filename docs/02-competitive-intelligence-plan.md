@@ -38,87 +38,32 @@ análise de dados de modo a transformar informações operacionais em insights
 estratégicos. As perguntas a seguir foram elaboradas com base nos objetivos
 definidos no KIT, buscando identificar pontos críticos da operação e subsidiar a
 tomada de decisões:
-- KIQ 01 – Qual é o tempo médio de execução dos diferentes tipos de
-serviço?
-Mede a eficiência dos serviços prestados, permitindo identificar quais
-consertos são mais demorados e precisam ser otimizados.
-- KIQ 02 – Qual é o tempo médio de execução dos diferentes tipos de
-equipamento?
-Consoles e acessórios possuem processos de manutenção distintos.
-Compreender essas variações ajuda na alocação de tempo e recursos.
-- KIQ 03 – Qual é o tempo médio de espera do cliente desde o
-recebimento até a entrega do videogame?
-Longos tempos de espera podem indicar ineficiência no fluxo de trabalho.
-Reduzir esse tempo melhora a experiência do cliente.
-- KIQ 04 – Qual é a variação do tempo médio de reparo entre diferentes
-tipos de consoles e defeitos?
-Alguns defeitos podem ser resolvidos rapidamente, enquanto outros exigem
-mais tempo. Essa análise ajuda na estimativa e planejamento.
-- KIQ 05 – Quais são os principais motivos de retrabalho nos reparos e
-como reduzi-los?
-Se há falhas frequentes nos reparos, isso pode gerar desperdício de tempo e
-materiais. Identificar e corrigir esses problemas melhora a eficiência.
-- KIQ 06 – Como a distribuição das tarefas entre os técnicos impacta o
-tempo médio de reparo?
-Técnicos sobrecarregados podem atrasar o serviço. Melhor equilibrar a carga
-de trabalho melhora a produtividade.
-- KIQ 07 – Qual deve ser o nível de estoque mínimo, médio e máximo para
-garantir eficiência?
-Manter um equilíbrio evita tanto a falta de peças quanto excessos que
-aumentam custos de armazenamento.
-- KIQ 08 – Qual é o giro de estoque dos componentes mais utilizados?
-Monitorar a frequência de reposição das peças ajuda a prever demandas e
-evitar desperdícios.
-- KIQ 09 – Qual é a cobertura de estoque para os itens essenciais?
-Avaliar por quantos dias o estoque pode suprir a demanda evita interrupções
-no atendimento.
-- KIQ 10 – Qual é o tempo médio de reposição de peças pelos
-fornecedores?
-Se o fornecedor demora para entregar peças, antecipar pedidos pode evitar
-atrasos nos reparos.
-- KIQ 11 – Qual é a taxa de ruptura de estoque na assistência técnica?
-Mede quantas vezes uma peça essencial esteve em falta, impactando
-diretamente os prazos de reparo.
-- KIQ 12 – Qual é a taxa de obsolescência do estoque?
-Peças que não são mais utilizadas representam perdas financeiras. Reduzir
-esse índice melhora a gestão do capital.
-- KIQ 13 – Qual é o tempo médio de permanência das peças no estoque
-antes de serem utilizadas?
-Peças que ficam armazenadas por muito tempo podem representar um
-desperdício de espaço e capital.
-- KIQ 14 – Qual é o Tempo Médio de Atendimento Inicial (TMAI)?
-Reduzir o tempo de registro e testes iniciais agiliza o processo sem
-comprometer o diagnóstico.
-- KIQ 15 – Qual é o Tempo Médio de Orçamento (TMO)?
-Um orçamento rápido aumenta a taxa de conversão de clientes que aprovam
-o serviço.
-- KIQ 16 – Qual é a Taxa de Aprovação de Orçamentos (TAO)?
-Uma taxa baixa pode indicar falhas na comunicação ou preços desalinhados
-ao mercado.
-- KIQ 17 – Qual é o Tempo Médio de Reparação (TMR)?
-Reduzir o tempo de conserto aumenta a capacidade de atendimento da
-assistência técnica.
-- KIQ 18 – Qual é a Taxa de Retrabalho (TR)?
-Se os reparos falham e precisam ser refeitos, há desperdício de tempo e
-recursos.
-- KIQ 19 – Quantas Ordens de Serviço cada atendente cria por dia
-(NOSA)?
-Identifica quais atendentes são mais produtivos e onde podem ser feitas
-melhorias.
-- KIQ 20 – Qual é a Taxa de Conversão de Orçamentos por Técnico
-(TCOT)?
-Se um técnico tem baixa taxa de conversão, pode precisar de treinamento
-para justificar melhor os serviços ao cliente.
-- KIQ 21 – Quantos Reparos cada Técnico conclui por período (NRCT)?
-Mede a produtividade dos técnicos e ajuda a equilibrar a carga de trabalho.
-- KIQ 22 – Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)?
-Diagnósticos demorados podem indicar necessidade de treinamento ou
-ferramentas mais eficientes.
-- KIQ 23 – Qual é a Taxa de Retrabalho por Técnico (TRT)?
-Técnicos que apresentam muitas falhas precisam de ajustes em suas
-metodologias.
-- KIQ 24 – Qual é o Tempo Médio de Espera do Cliente (TMEC)?
-Reduzir filas e tempos de espera melhora a experiência do cliente.
+|**KIQ**|**Pergunta**|**Justificativa**|
+|------|------|------|
+| 01 | Qual é o tempo médio de execução dos diferentes tipos de serviço? | Mede a eficiência dos serviços prestados, permitindo identificar quais consertos são mais demorados e precisam ser otimizados. |
+| 02 | Qual é o tempo médio de execução dos diferentes tipos de equipamento? | Consoles e acessórios possuem processos de manutenção distintos. Compreender essas variações ajuda na alocação de tempo e recursos.
+| 03 | Qual é o tempo médio de espera do cliente desde o recebimento até a entrega do videogame? | Longos tempos de espera podem indicar ineficiência no fluxo de trabalho. Reduzir esse tempo melhora a experiência do cliente. |
+| 04 | Qual é a variação do tempo médio de reparo entre diferentes tipos de consoles e defeitos? | Alguns defeitos podem ser resolvidos rapidamente, enquanto outros exigem mais tempo. Essa análise ajuda na estimativa e planejamento. |
+| 05 | Quais são os principais motivos de retrabalho nos reparos e como reduzi-los? | Se há falhas frequentes nos reparos, isso pode gerar desperdício de tempo e materiais. Identificar e corrigir esses problemas melhora a eficiência. |
+| 06 | Como a distribuição das tarefas entre os técnicos impacta o tempo médio de reparo? | Técnicos sobrecarregados podem atrasar o serviço. Melhor equilibrar a carga de trabalho melhora a produtividade. |
+| 07 | Qual deve ser o nível de estoque mínimo, médio e máximo para garantir eficiência? | Manter um equilíbrio evita tanto a falta de peças quanto excessos que aumentam custos de armazenamento. |
+| 08 | Qual é o giro de estoque dos componentes mais utilizados? | Monitorar a frequência de reposição das peças ajuda a prever demandas e evitar desperdícios. |
+| 09 | Qual é a cobertura de estoque para os itens essenciais? | Avaliar por quantos dias o estoque pode suprir a demanda evita interrupções no atendimento. |
+| 10 | Qual é o tempo médio de reposição de peças pelos fornecedores? | Se o fornecedor demora para entregar peças, antecipar pedidos pode evitar atrasos nos reparos. |
+| 11 | Qual é a taxa de ruptura de estoque na assistência técnica? | Mede quantas vezes uma peça essencial esteve em falta, impactando diretamente os prazos de reparo. |
+| 12 | Qual é a taxa de obsolescência do estoque? | Peças que não são mais utilizadas representam perdas financeiras. Reduzir esse índice melhora a gestão do capital.
+| 13 | Qual é o tempo médio de permanência das peças no estoque antes de serem utilizadas? | Peças que ficam armazenadas por muito tempo podem representar um desperdício de espaço e capital. |
+| 14 | Qual é o Tempo Médio de Atendimento Inicial (TMAI)? | Reduzir o tempo de registro e testes iniciais agiliza o processo sem comprometer o diagnóstico. |
+| 15 | Qual é o Tempo Médio de Orçamento (TMO)? | Um orçamento rápido aumenta a taxa de conversão de clientes que aprovam o serviço. |
+| 16 | Qual é a Taxa de Aprovação de Orçamentos (TAO)? | Uma taxa baixa pode indicar falhas na comunicação ou preços desalinhados ao mercado. |
+| 17 | Qual é o Tempo Médio de Reparação (TMR)? | Reduzir o tempo de conserto aumenta a capacidade de atendimento da assistência técnica. |
+| 18 | Qual é a Taxa de Retrabalho (TR)? | Se os reparos falham e precisam ser refeitos, há desperdício de tempo e recursos. |
+| 19 | Quantas Ordens de Serviço cada atendente cria por dia (NOSA)? | Identifica quais atendentes são mais produtivos e onde podem ser feitas melhorias. |
+| 20 | Qual é a Taxa de Conversão de Orçamentos por Técnico (TCOT)? | Se um técnico tem baixa taxa de conversão, pode precisar de treinamentopara justificar melhor os serviços ao cliente. |
+| 21 | Quantos Reparos cada Técnico conclui por período (NRCT)? | Mede a produtividade dos técnicos e ajuda a equilibrar a carga de trabalho. |
+| 22 | Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)? | Diagnósticos demorados podem indicar necessidade de treinamento ou ferramentas mais eficientes. |
+| 23 | Qual é a Taxa de Retrabalho por Técnico (TRT)? | Técnicos que apresentam muitas falhas precisam de ajustes em suas metodologias. |
+| 24 | Qual é o Tempo Médio de Espera do Cliente (TMEC)? | Reduzir filas e tempos de espera melhora a experiência do cliente. |
 
 ## 2.1.4 Justificativa da relevância do KIT e das KIQs
 A redução do tempo médio de manutenção é um diferencial competitivo no
@@ -149,302 +94,372 @@ que o banco de dados esteja estruturado para suportar operações comerciais sem
 falhas. Possibilita a integração com outras ferramentas de análise de dados,
 permitindo insights estratégicos baseados em informações consistentes e seguras.
 ## 2.2. Identificação das necessidades de informação
+
 A seguir, são apresentados os principais KIQs definidos para o projeto:
-KIQ 01 – Qual é o tempo médio de execução dos diferentes tipos de serviço?
-- Métrica/Medição: Tempo Médio Execução = SUM(data_fim_reparo -
-data_inicio_reparo) / COUNT(serviços)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Serviços
-- Filtros: statusitem = "Concluído"
-- Visualização: Gráfico de barras horizontal
-- Disponibilidade: Alta – Os dados são armazenados no ERP da empresa e
-podem ser extraídos via .csv ou API. Estão disponíveis nas tabelas
-especificadas e acessíveis para construção de dashboards.
-- Confiabilidade: Alta – O sistema ERP utiliza banco de dados MySQL com
-integridade referencial. Os dados são consistentes e auditáveis via Navicat,
-garantindo confiabilidade para análises.
 
-KIQ 02 – Qual é o tempo médio de execução dos diferentes tipos de
-equipamento?
+### KIQ 01 – Qual é o tempo médio de execução dos diferentes tipos de serviço?
 
-- Métrica/Medição: Tempo Médio Execução = SUM(data_fim_reparo -
-data_inicio_reparo) / COUNT(equipamentos)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Equipamento
-- Filtros: statusitem = "Concluído"
-- Visualização: Gráfico de barras empilhadas
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-- 
-kIQ 03 – Qual é o tempo médio de espera do cliente desde o recebimento até a
-entrega do videogame?
+| Componente                  | Descrição                                                                                                                                       |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Tempo Médio de Execução = SUM(data_fim_reparo - data_inicio_reparo) / COUNT(serviços)`                                                        |
+| Classificação da Informação| Operações                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                         |
+| Agrupamentos               | Serviços                                                                                                                                        |
+| Filtros                    | `statusitem = "Concluído"`                                                                                                                      |
+| Visualização               | Gráfico de barras horizontal                                                                                                                    |
+| Disponibilidade            | Alta – Os dados são armazenados no ERP da empresa e podem ser extraídos via `.csv` ou API. Estão disponíveis nas tabelas especificadas e acessíveis para construção de dashboards. |
+| Confiabilidade             | Alta – O sistema ERP utiliza banco de dados MySQL com integridade referencial. Os dados são consistentes e auditáveis via Navicat, garantindo confiabilidade para análises. |
 
-- Métrica/Medição: TMEC = AVG(data_entrega - data_recebimento)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: statusos = "Entregue"
-- Visualização: Card
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-  
-KIQ 04 – Qual é a variação do tempo médio de reparo entre diferentes tipos de
-consoles e defeitos?
 
-- Métrica/Medição: TMR = AVG(data_fim_reparo - data_inicio_reparo)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Equipamento, modelo e serviço
-- Filtros: Status de conclusão e data de execução
-- Visualização: Mapa de calor
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-  
-KIQ 05 – Quais são os principais motivos de retrabalho nos reparos e como
-reduzi-los?
+### KIQ 02 – Qual é o tempo médio de execução dos diferentes tipos de equipamento?
 
-- Métrica/Medição: Taxa de retrabalho = (Qtd_retrabalhos /
-Qtd_reparos_concluídos) * 100
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-- 
-KIQ 06 – Qual a relação da falta de peças e o impacto nos prazos de
-manutenção?
+| Componente                  | Descrição                                                                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Tempo Médio Execução = SUM(data_fim_reparo - data_inicio_reparo) / COUNT(equipamentos)`                                                    |
+| Classificação da Informação| Operações                                                                                                                                    |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                      |
+| Agrupamentos               | Equipamento                                                                                                                                  |
+| Filtros                    | `statusitem = "Concluído"`                                                                                                                   |
+| Visualização               | Gráfico de barras empilhadas                                                                                                                |
+| Disponibilidade            | Alta                                                                                                                                        |
+| Confiabilidade             | Alta                                                                                                                                        |
 
-- Métrica/Medição: Tempo_espera_peca = data_inicio_reparo -
-data_disponibilizacao_peca
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-- 
-KIQ 07 – Como a distribuição das tarefas entre os técnicos impacta o tempo
-médio de reparo?
 
-- Métrica/Medição: Total de OS atribuídas × tempo médio de reparo
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Técnicos
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-  
-KIQ 08 – Qual deve ser o nível de estoque mínimo?
+### KIQ 03 – Qual é o tempo médio de espera do cliente desde o recebimento até a entrega do videogame?
 
-- Métrica/Medição: Estoque mínimo = CMD × dias de cobertura crítica =
-(maior consumo diário / consumo médio diário)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS, consumoitensos
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-- 
-KIQ 09 – Qual deve ser o nível de estoque médio?
+| Componente                  | Descrição                                                                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `TMEC = AVG(data_entrega - data_recebimento)`                                                                                                |
+| Classificação da Informação| Operações                                                                                                                                    |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                      |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                      |
+| Filtros                    | `statusos = "Entregue"`                                                                                                                      |
+| Visualização               | Card                                                                                                                                         |
+| Disponibilidade            | Alta                                                                                                                                        |
+| Confiabilidade             | Alta                                                                                                                                        |
 
-- Métrica/Medição: Consumo Médio Diário (CMD) = total de peças utilizadas /
-número de dias analisados
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS, consumoitensos
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-KIQ 10 – Qual deve ser o nível de estoque máximo?
-- Métrica/Medição: Estoque máximo = CMD × lead time em dias
-(média(data_recebimento - data_pedido))
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS, consumoitensos, oc, itensoc, ps
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-KIQ 11 – Qual é o giro de estoque dos componentes mais utilizados?
-- Métrica/Medição: Giro de estoque = Consumo anual / Estoque médio
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas consumoitensos, ps
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-KIQ 12 – Qual é a cobertura de estoque para os itens essenciais?
-- Métrica/Medição: Cobertura de estoque = Estoque atual / Consumo médio
-diário (CMD)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS, consumoitensos, ps
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-KIQ 13 – Qual é o tempo médio de reposição de peças pelos fornecedores?
-- Métrica/Medição: Tempo médio = AVG(data_entrega_fornecedor -
-data_pedido)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas oc, itensoc
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-KIQ 14 – Qual é a taxa de ruptura de estoque na assistência técnica?
-- Métrica/Medição: Taxa de ruptura (%) = (Soma de OS que requisitam peças
-em dias com estoque zerado / Total de OS autorizadas que requisitam peças)
-× 100
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS, consumoitensos, ps
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-KIQ 15 – Qual é a taxa de obsolescência do estoque?
-- Métrica/Medição: Taxa de obsolescência = (Qtd de peças obsoletas (última
-utilização > 365 dias) / Qtd total em estoque) × 100
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS, consumoitensos, ps
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
-KIQ 16 – Qual é o tempo médio de permanência das peças no estoque antes de
-serem utilizadas?
-- Métrica/Medição: AVG(data de uso da peça - data de entrada no estoque)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS, consumoitensos, oc, itensoc, ps
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
 
-KIQ 17 – Qual é o Tempo Médio de Atendimento Inicial (TMAI)?
+### KIQ 04 – Qual é a variação do tempo médio de reparo entre diferentes tipos de consoles e defeitos?
 
-- Métrica/Medição: AVG(data início diagnóstico - data recebimento
-equipamento)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
+| Componente                  | Descrição                                                                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `TMR = AVG(data_fim_reparo - data_inicio_reparo)`                                                                                            |
+| Classificação da Informação| Operações                                                                                                                                    |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                      |
+| Agrupamentos               | Equipamento, modelo e serviço                                                                                                                |
+| Filtros                    | Status de conclusão e data de execução                                                                                                       |
+| Visualização               | Mapa de calor                                                                                                                                |
+| Disponibilidade            | Alta                                                                                                                                        |
+| Confiabilidade             | Alta                                                                                                                                        |
 
-KIQ 18 – Qual é o Tempo Médio de Orçamento (TMO)?
 
-- Métrica/Medição: AVG(data envio orçamento - data início diagnóstico)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
+### KIQ 05 – Quais são os principais motivos de retrabalho nos reparos e como reduzi-los?
 
-KIQ 19 – Qual é a Taxa de Aprovação de Orçamentos (TAO)?
+| Componente                  | Descrição                                                                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Taxa de retrabalho = (Qtd_retrabalhos / Qtd_reparos_concluídos) * 100`                                                                     |
+| Classificação da Informação| Operações                                                                                                                                    |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                      |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                      |
+| Filtros                    | Status de conclusão e data de execução                                                                                                       |
+| Visualização               | Gráfico de barras                                                                                                                            |
+| Disponibilidade            | Alta                                                                                                                                        |
+| Confiabilidade             | Alta                                                                                                                                        |
 
-- Métrica/Medição: (Qtd aprovados / Qtd enviados) × 100
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
 
-KIQ 20 – Qual é o Tempo Médio de Reparação (TMR)?
+### KIQ 06 – Qual a relação da falta de peças e o impacto nos prazos de manutenção?
 
-- Métrica/Medição: AVG(data_fim_reparo - data_inicio_reparo)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
+| Componente                  | Descrição                                                                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Tempo_espera_peca = data_inicio_reparo - data_disponibilizacao_peca`                                                                       |
+| Classificação da Informação| Operações                                                                                                                                    |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                      |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                      |
+| Filtros                    | Status de conclusão e data de execução                                                                                                       |
+| Visualização               | Gráfico de barras                                                                                                                            |
+| Disponibilidade            | Alta                                                                                                                                        |
+| Confiabilidade             | Alta                                                                                                                                        |
 
-KIQ 21 – Qual é a Taxa de Retrabalho (TR)?
 
-- Métrica/Medição: (Qtd retrabalhos / Qtd total de reparos) × 100
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
+### KIQ 07 – Como a distribuição das tarefas entre os técnicos impacta o tempo médio de reparo?
 
-KIQ 22 – Qual é a Taxa de Conversão de Orçamentos por Técnico (TCOT)?
+| Componente                  | Descrição                                                                                                                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Total de OS atribuídas × tempo médio de reparo`                                                                                             |
+| Classificação da Informação| Operações                                                                                                                                    |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                      |
+| Agrupamentos               | Técnicos                                                                                                                                     |
+| Filtros                    | Status de conclusão e data de execução                                                                                                       |
+| Visualização               | Gráfico de barras                                                                                                                            |
+| Disponibilidade            | Alta                                                                                                                                        |
+| Confiabilidade             | Alta                                                                                                                                        |
 
-- Métrica/Medição: (Orçamentos aprovados / Orçamentos enviados) × 100
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Técnico
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
 
-KIQ 23 – Quantos Reparos cada Técnico conclui por período (NRCT)?
+### KIQ 08 – Qual deve ser o nível de estoque mínimo?
 
-- Métrica/Medição: COUNT(reparos_concluídos)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Data
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Estoque mínimo = CMD × dias de cobertura crítica = (maior consumo diário / consumo médio diário)`                                                            |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`, `consumoitensos`                                                                                                                      |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
 
-KIQ 24 – Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)?
 
-- Métrica/Medição: AVG(data conclusão diagnóstico - data início diagnóstico)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Técnico
-- Filtros: Status de conclusão e data de execução
-- Visualização: Gráfico de barras
-- Disponibilidade: Alta
-- Confiabilidade: Alta
+### KIQ 09 – Qual deve ser o nível de estoque médio?
 
-KIQ 25 – Qual é a Taxa de Retrabalho por Técnico (TRT)?
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `CMD = total de peças utilizadas / número de dias analisados`                                                                                                  |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`, `consumoitensos`                                                                                                                      |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
 
-- Métrica/Medição: (Retrabalhos realizados (OS tipo garantia) / Reparos
-concluídos) × 100
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Técnico
-- Filtros: idtecnicoconsertou
-- Visualização: Gráfico de barras horizontal
-- Disponibilidade: Alta
-- Confiabilidade: Alta
 
-KIQ 26 – Qual é o Tempo Médio de Espera do Cliente (TMEC)?
+### KIQ 10 – Qual deve ser o nível de estoque máximo?
 
-- Métrica/Medição: AVG(data_entrega - data_recebimento)
-- Classificação da Informação: Operações
-- Fontes de Dados: Tabelas os, itensOS
-- Agrupamentos: Tipo de serviço, técnico ou equipamento
-- Filtros: Status de conclusão e data de execução
-- Visualização: Card
-- Disponibilidade: Alta
-- Confiabilidade: Alta
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Estoque máximo = CMD × lead time em dias = média(data_recebimento - data_pedido)`                                                                             |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`, `consumoitensos`, `oc`, `itensoc`, `ps`                                                                                                |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 11 – Qual é o giro de estoque dos componentes mais utilizados?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Giro de estoque = Consumo anual / Estoque médio`                                                                                                               |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `consumoitensos`, `ps`                                                                                                                                  |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 12 – Qual é a cobertura de estoque para os itens essenciais?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Cobertura de estoque = Estoque atual / Consumo médio diário (CMD)`                                                                                            |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`, `consumoitensos`, `ps`                                                                                                                 |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 13 – Qual é o tempo médio de reposição de peças pelos fornecedores?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Tempo médio = AVG(data_entrega_fornecedor - data_pedido)`                                                                                                     |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `oc`, `itensoc`                                                                                                                                         |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 14 – Qual é a taxa de ruptura de estoque na assistência técnica?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Taxa de ruptura (%) = (OS que requisitam peças em dias com estoque zerado / OS autorizadas que requisitam peças) × 100`                                     |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`, `consumoitensos`, `ps`                                                                                                                 |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 15 – Qual é a taxa de obsolescência do estoque?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `Taxa de obsolescência = (Qtd peças obsoletas (>365 dias sem uso) / Qtd total em estoque) × 100`                                                              |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`, `consumoitensos`, `ps`                                                                                                                 |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 16 – Qual é o tempo médio de permanência das peças no estoque antes de serem utilizadas?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `AVG(data uso da peça - data entrada no estoque)`                                                                                                              |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`, `consumoitensos`, `oc`, `itensoc`, `ps`                                                                                                |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 17 – Qual é o Tempo Médio de Atendimento Inicial (TMAI)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `AVG(data início diagnóstico - data recebimento equipamento)`                                                                                                  |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 18 – Qual é o Tempo Médio de Orçamento (TMO)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `AVG(data envio orçamento - data início diagnóstico)`                                                                                                          |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 19 – Qual é a Taxa de Aprovação de Orçamentos (TAO)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `(Qtd aprovados / Qtd enviados) × 100`                                                                                                                          |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 20 – Qual é o Tempo Médio de Reparação (TMR)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `AVG(data_fim_reparo - data_inicio_reparo)`                                                                                                                    |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 21 – Qual é a Taxa de Retrabalho (TR)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `(Qtd retrabalhos / Qtd total de reparos) × 100`                                                                                                               |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 22 – Qual é a Taxa de Conversão de Orçamentos por Técnico (TCOT)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `(Orçamentos aprovados / Orçamentos enviados) × 100`                                                                                                           |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Técnico                                                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 23 – Quantos Reparos cada Técnico conclui por período (NRCT)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `COUNT(reparos_concluídos)`                                                                                                                                    |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Data                                                                                                                                                           |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 24 – Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `AVG(data conclusão diagnóstico - data início diagnóstico)`                                                                                                    |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Técnico                                                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Gráfico de barras                                                                                                                                              |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 25 – Qual é a Taxa de Retrabalho por Técnico (TRT)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `(Retrabalhos realizados (OS tipo garantia) / Reparos concluídos) × 100`                                                                                      |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Técnico                                                                                                                                                        |
+| Filtros                    | `idtecnicoconsertou`                                                                                                                                            |
+| Visualização               | Gráfico de barras horizontal                                                                                                                                   |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
+
+### KIQ 26 – Qual é o Tempo Médio de Espera do Cliente (TMEC)?
+
+| Componente                  | Descrição                                                                                                                                                      |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Métrica/Medição            | `AVG(data_entrega - data_recebimento)`                                                                                                                         |
+| Classificação da Informação| Operações                                                                                                                                                       |
+| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                                         |
+| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                                        |
+| Filtros                    | Status de conclusão e data de execução                                                                                                                         |
+| Visualização               | Card                                                                                                                                                           |
+| Disponibilidade            | Alta                                                                                                                                                           |
+| Confiabilidade             | Alta                                                                                                                                                           |
+
 
 ## 2.3. Planejamento da coleta e armazenamento de dados
 
@@ -515,7 +530,12 @@ também conhecida como medallion architecture, amplamente adotado em projetos
 de Business Intelligence. Os dados serão processados em quatro camadas distintas,
 cada uma com objetivos específicos:
 
-![Captura de tela 2025-04-04 215413](https://github.com/user-attachments/assets/b32ee8cd-6310-4ca2-90a7-dbb978c6b1c9)
+| Camada | Objetivo | Ferramenta |
+|--------|----------|------------|
+|Bruta (raw) |Preservar os dados originais sem modificações para rastreabilidade. | Azure Data Lake Storage (ADLS) |
+|Inicial (staging) |Padronização estrutural (tipos de dados, nomenclatura, limpeza básica). | dbt (Data Build Tool) e SQL |
+|Intermediária (intermediate) |Aplicação de regras de negócio e pré-modelagem dimensional. |dbt (Data Build Tool) e SQL |
+|Analítica (mart) | Modelagem dimensional final (Star Schema) para consumo no Power BI. | Microsoft Power BI |
 
 ## 2.3.5. Métodos de organização e classificação dos dados
 
