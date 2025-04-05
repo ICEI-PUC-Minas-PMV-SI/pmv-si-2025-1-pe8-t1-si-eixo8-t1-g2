@@ -167,21 +167,8 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                        |
 
 
-### KIQ 06 – Qual a relação da falta de peças e o impacto nos prazos de manutenção?
 
-| Componente                  | Descrição                                                                                                                                    |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Métrica/Medição            | `Tempo_espera_peca = data_inicio_reparo - data_disponibilizacao_peca`                                                                       |
-| Classificação da Informação| Operações                                                                                                                                    |
-| Fontes de Dados            | Tabelas `os`, `itensOS`                                                                                                                      |
-| Agrupamentos               | Tipo de serviço, técnico ou equipamento                                                                                                      |
-| Filtros                    | Status de conclusão e data de execução                                                                                                       |
-| Visualização               | Gráfico de barras                                                                                                                            |
-| Disponibilidade            | Alta                                                                                                                                        |
-| Confiabilidade             | Alta                                                                                                                                        |
-
-
-### KIQ 07 – Como a distribuição das tarefas entre os técnicos impacta o tempo médio de reparo?
+### KIQ 06 – Como a distribuição das tarefas entre os técnicos impacta o tempo médio de reparo?
 
 | Componente                  | Descrição                                                                                                                                    |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -195,7 +182,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                        |
 
 
-### KIQ 08 – Qual deve ser o nível de estoque mínimo?
+### KIQ 07 – Qual deve ser o nível de estoque mínimo?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -209,7 +196,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 09 – Qual deve ser o nível de estoque médio?
+### KIQ 08 – Qual deve ser o nível de estoque médio?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -223,7 +210,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 10 – Qual deve ser o nível de estoque máximo?
+### KIQ 09 – Qual deve ser o nível de estoque máximo?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -237,7 +224,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 11 – Qual é o giro de estoque dos componentes mais utilizados?
+### KIQ 10 – Qual é o giro de estoque dos componentes mais utilizados?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -251,7 +238,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 12 – Qual é a cobertura de estoque para os itens essenciais?
+### KIQ 11 – Qual é a cobertura de estoque para os itens essenciais?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -265,7 +252,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 13 – Qual é o tempo médio de reposição de peças pelos fornecedores?
+### KIQ 12 – Qual é o tempo médio de reposição de peças pelos fornecedores?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -279,7 +266,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 14 – Qual é a taxa de ruptura de estoque na assistência técnica?
+### KIQ 13 – Qual é a taxa de ruptura de estoque na assistência técnica?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -293,7 +280,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 15 – Qual é a taxa de obsolescência do estoque?
+### KIQ 14 – Qual é a taxa de obsolescência do estoque?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -307,7 +294,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 16 – Qual é o tempo médio de permanência das peças no estoque antes de serem utilizadas?
+### KIQ 15 – Qual é o tempo médio de permanência das peças no estoque antes de serem utilizadas?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -321,7 +308,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 17 – Qual é o Tempo Médio de Atendimento Inicial (TMAI)?
+### KIQ 16 – Qual é o Tempo Médio de Atendimento Inicial (TMAI)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -335,7 +322,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 18 – Qual é o Tempo Médio de Orçamento (TMO)?
+### KIQ 17 – Qual é o Tempo Médio de Orçamento (TMO)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -349,7 +336,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 19 – Qual é a Taxa de Aprovação de Orçamentos (TAO)?
+### KIQ 18 – Qual é a Taxa de Aprovação de Orçamentos (TAO)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -363,7 +350,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 20 – Qual é o Tempo Médio de Reparação (TMR)?
+### KIQ 19 – Qual é o Tempo Médio de Reparação (TMR)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -377,7 +364,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 21 – Qual é a Taxa de Retrabalho (TR)?
+### KIQ 20 – Qual é a Taxa de Retrabalho (TR)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -391,7 +378,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 22 – Qual é a Taxa de Conversão de Orçamentos por Técnico (TCOT)?
+### KIQ 21 – Qual é a Taxa de Conversão de Orçamentos por Técnico (TCOT)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -405,7 +392,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 23 – Quantos Reparos cada Técnico conclui por período (NRCT)?
+### KIQ 22 – Quantos Reparos cada Técnico conclui por período (NRCT)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -419,7 +406,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 24 – Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)?
+### KIQ 23 – Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -433,7 +420,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 25 – Qual é a Taxa de Retrabalho por Técnico (TRT)?
+### KIQ 24 – Qual é a Taxa de Retrabalho por Técnico (TRT)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -447,7 +434,7 @@ A seguir, são apresentados os principais KIQs definidos para o projeto:
 | Confiabilidade             | Alta                                                                                                                                                           |
 
 
-### KIQ 26 – Qual é o Tempo Médio de Espera do Cliente (TMEC)?
+### KIQ 25 – Qual é o Tempo Médio de Espera do Cliente (TMEC)?
 
 | Componente                  | Descrição                                                                                                                                                      |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
