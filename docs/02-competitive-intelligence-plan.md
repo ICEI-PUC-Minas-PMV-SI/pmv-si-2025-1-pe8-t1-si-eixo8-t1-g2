@@ -38,6 +38,7 @@ análise de dados de modo a transformar informações operacionais em insights
 estratégicos. As perguntas a seguir foram elaboradas com base nos objetivos
 definidos no KIT, buscando identificar pontos críticos da operação e subsidiar a
 tomada de decisões:
+
 |**KIQ**|**Pergunta**|**Justificativa**|
 |------|------|------|
 | 01 | Qual é o tempo médio de execução dos diferentes tipos de serviço? | Mede a eficiência dos serviços prestados, permitindo identificar quais consertos são mais demorados e precisam ser otimizados. |
@@ -46,24 +47,25 @@ tomada de decisões:
 | 04 | Qual é a variação do tempo médio de reparo entre diferentes tipos de consoles e defeitos? | Alguns defeitos podem ser resolvidos rapidamente, enquanto outros exigem mais tempo. Essa análise ajuda na estimativa e planejamento. |
 | 05 | Quais são os principais motivos de retrabalho nos reparos e como reduzi-los? | Se há falhas frequentes nos reparos, isso pode gerar desperdício de tempo e materiais. Identificar e corrigir esses problemas melhora a eficiência. |
 | 06 | Como a distribuição das tarefas entre os técnicos impacta o tempo médio de reparo? | Técnicos sobrecarregados podem atrasar o serviço. Melhor equilibrar a carga de trabalho melhora a produtividade. |
-| 07 | Qual deve ser o nível de estoque mínimo, médio e máximo para garantir eficiência? | Manter um equilíbrio evita tanto a falta de peças quanto excessos que aumentam custos de armazenamento. |
-| 08 | Qual é o giro de estoque dos componentes mais utilizados? | Monitorar a frequência de reposição das peças ajuda a prever demandas e evitar desperdícios. |
-| 09 | Qual é a cobertura de estoque para os itens essenciais? | Avaliar por quantos dias o estoque pode suprir a demanda evita interrupções no atendimento. |
-| 10 | Qual é o tempo médio de reposição de peças pelos fornecedores? | Se o fornecedor demora para entregar peças, antecipar pedidos pode evitar atrasos nos reparos. |
-| 11 | Qual é a taxa de ruptura de estoque na assistência técnica? | Mede quantas vezes uma peça essencial esteve em falta, impactando diretamente os prazos de reparo. |
-| 12 | Qual é a taxa de obsolescência do estoque? | Peças que não são mais utilizadas representam perdas financeiras. Reduzir esse índice melhora a gestão do capital.
-| 13 | Qual é o tempo médio de permanência das peças no estoque antes de serem utilizadas? | Peças que ficam armazenadas por muito tempo podem representar um desperdício de espaço e capital. |
-| 14 | Qual é o Tempo Médio de Atendimento Inicial (TMAI)? | Reduzir o tempo de registro e testes iniciais agiliza o processo sem comprometer o diagnóstico. |
-| 15 | Qual é o Tempo Médio de Orçamento (TMO)? | Um orçamento rápido aumenta a taxa de conversão de clientes que aprovam o serviço. |
-| 16 | Qual é a Taxa de Aprovação de Orçamentos (TAO)? | Uma taxa baixa pode indicar falhas na comunicação ou preços desalinhados ao mercado. |
-| 17 | Qual é o Tempo Médio de Reparação (TMR)? | Reduzir o tempo de conserto aumenta a capacidade de atendimento da assistência técnica. |
-| 18 | Qual é a Taxa de Retrabalho (TR)? | Se os reparos falham e precisam ser refeitos, há desperdício de tempo e recursos. |
-| 19 | Quantas Ordens de Serviço cada atendente cria por dia (NOSA)? | Identifica quais atendentes são mais produtivos e onde podem ser feitas melhorias. |
-| 20 | Qual é a Taxa de Conversão de Orçamentos por Técnico (TCOT)? | Se um técnico tem baixa taxa de conversão, pode precisar de treinamentopara justificar melhor os serviços ao cliente. |
-| 21 | Quantos Reparos cada Técnico conclui por período (NRCT)? | Mede a produtividade dos técnicos e ajuda a equilibrar a carga de trabalho. |
-| 22 | Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)? | Diagnósticos demorados podem indicar necessidade de treinamento ou ferramentas mais eficientes. |
-| 23 | Qual é a Taxa de Retrabalho por Técnico (TRT)? | Técnicos que apresentam muitas falhas precisam de ajustes em suas metodologias. |
-| 24 | Qual é o Tempo Médio de Espera do Cliente (TMEC)? | Reduzir filas e tempos de espera melhora a experiência do cliente. |
+| 07 | Qual deve ser o nível de estoque mínimo? | Manter um equilíbrio evita tanto a falta de peças quanto excessos que aumentam custos de armazenamento. |
+| 08 | Qual deve ser o nível de estoque médio? | Manter um equilíbrio evita tanto a falta de peças quanto excessos que aumentam custos de armazenamento. |
+| 09 | Qual deve ser o nível de estoque máximo? | Manter um equilíbrio evita tanto a falta de peças quanto excessos que aumentam custos de armazenamento. |
+| 10 | Qual é o giro de estoque dos componentes mais utilizados? | Monitorar a frequência de reposição das peças ajuda a prever demandas e evitar desperdícios. |
+| 11 | Qual é a cobertura de estoque para os itens essenciais? | Avaliar por quantos dias o estoque pode suprir a demanda evita interrupções no atendimento. |
+| 12 | Qual é o tempo médio de reposição de peças pelos fornecedores? | Se o fornecedor demora para entregar peças, antecipar pedidos pode evitar atrasos nos reparos. |
+| 13 | Qual é a taxa de ruptura de estoque na assistência técnica? | Mede quantas vezes uma peça essencial esteve em falta, impactando diretamente os prazos de reparo. |
+| 14 | Qual é a taxa de obsolescência do estoque? | Peças que não são mais utilizadas representam perdas financeiras. Reduzir esse índice melhora a gestão do capital.
+| 15 | Qual é o tempo médio de permanência das peças no estoque antes de serem utilizadas? | Peças que ficam armazenadas por muito tempo podem representar um desperdício de espaço e capital. |
+| 16 | Qual é o Tempo Médio de Atendimento Inicial (TMAI)? | Reduzir o tempo de registro e testes iniciais agiliza o processo sem comprometer o diagnóstico. |
+| 17 | Qual é o Tempo Médio de Orçamento (TMO)? | Um orçamento rápido aumenta a taxa de conversão de clientes que aprovam o serviço. |
+| 18 | Qual é a Taxa de Aprovação de Orçamentos (TAO)? | Uma taxa baixa pode indicar falhas na comunicação ou preços desalinhados ao mercado. |
+| 19 | Qual é o Tempo Médio de Reparação (TMR)? | Reduzir o tempo de conserto aumenta a capacidade de atendimento da assistência técnica. |
+| 20 | Qual é a Taxa de Retrabalho (TR)? | Se os reparos falham e precisam ser refeitos, há desperdício de tempo e recursos. |
+| 21 | Qual é a Taxa de Conversão de Orçamentos por Técnico (TCOT)? | Se um técnico tem baixa taxa de conversão, pode precisar de treinamentopara justificar melhor os serviços ao cliente. |
+| 22 | Quantos Reparos cada Técnico conclui por período (NRCT)? | Mede a produtividade dos técnicos e ajuda a equilibrar a carga de trabalho. |
+| 23 | Qual é o Tempo Médio de Diagnóstico por Técnico (TMDT)? | Diagnósticos demorados podem indicar necessidade de treinamento ou ferramentas mais eficientes. |
+| 24 | Qual é a Taxa de Retrabalho por Técnico (TRT)? | Técnicos que apresentam muitas falhas precisam de ajustes em suas metodologias. |
+| 25 | Qual é o Tempo Médio de Espera do Cliente (TMEC)? | Reduzir filas e tempos de espera melhora a experiência do cliente. |
 
 ## 2.1.4 Justificativa da relevância do KIT e das KIQs
 A redução do tempo médio de manutenção é um diferencial competitivo no
