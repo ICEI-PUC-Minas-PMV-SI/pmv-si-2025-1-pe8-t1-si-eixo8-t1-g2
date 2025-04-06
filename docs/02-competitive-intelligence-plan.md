@@ -704,18 +704,24 @@ legislações vigentes e as melhores práticas em segurança da informação. A
 conformidade com normas como a Lei Geral de Proteção de Dados (LGPD), bem
 como a adoção de políticas estruturadas de segurança, é essencial para assegurar a
 integridade, a confidencialidade e a disponibilidade dos dados tratados.
+
 ## 2.7.1. Mapeamento de normas e regulamentações aplicáveis
+
 O uso de dados pessoais e sensíveis no contexto empresarial exige atenção
 aos seguintes marcos regulatórios:
-Lei Geral de Proteção de Dados (LGPD)
+
+**Lei Geral de Proteção de Dados (LGPD)**
+
 A LGPD (Lei nº 13.709/2018) regula o tratamento de dados pessoais no Brasil
 e estabelece princípios como:
+
 - Finalidade e transparência na coleta e tratamento de dados;
 - Consentimento do titular dos dados;
 - Segurança e prevenção contra vazamento de informações;
 - Direitos do titular, incluindo acesso, correção e exclusão de dados;
 - Responsabilização e prestação de contas pelas empresas que tratam dados
 pessoais.
+
 A LGPD impacta diretamente a operação da Eletronic Games, uma vez que
 seus sistemas armazenam e processam dados pessoais de clientes, fornecedores e
 funcionários. Assim, medidas de compliance precisam ser implementadas para
@@ -727,10 +733,12 @@ Para minimizar riscos, a empresa deve adotar estratégias como anonimização
 e pseudonimização dos dados sensíveis, garantindo que as informações pessoais
 não possam ser vinculadas diretamente a indivíduos. Essa abordagem auxilia a
 organização a ficar em compliance com a LGPD.
+
 O armazenamento de dados deve ser restrito ao essencial, utilizando
 criptografia avançada para que somente usuários autorizados tenham acesso. Além
 disso, procedimentos de exclusão segura devem ser implementados para eliminar
 permanentemente informações que não são mais necessárias.
+
 O controle de acessos deve ser rigoroso, empregando autenticação de dois
 fatores (2FA) e concessão de permissões de acordo com a função do usuário. O
 registro detalhado de acessos e modificações a partir dos logs nos sistemas deve
@@ -738,6 +746,7 @@ ser mantido para auditorias futuras, e revisões periódicas das permissões dev
 garantir que funcionários desligados ou sem necessidade de acesso não possam
 manipular os dados. Estratégias para identificar e bloquear acessos não autorizados
 ou suspeitos também devem ser estabelecidas.
+
 No que se refere à transferência e armazenamento de dados, é fundamental
 utilizar criptografia tanto em repouso quanto em trânsito, além de garantir conexões
 seguras (SSL/TLS) para a transmissão de informações sensíveis. Backups regulares
@@ -747,7 +756,9 @@ constante para identificar atividades incomuns e possibilitar respostas rápidas
 incidentes. Métodos de armazenamento descentralizado e replicação de dados
 devem ser considerados para aumentar a resiliência e reduzir os impactos de falhas
 técnicas.
+
 ## 2.7.3. Auditoria e conformidade
+
 Para manter a conformidade, a empresa deve realizar auditorias regulares,
 avaliando a segurança da informação, monitorando tentativas de acesso indevido e
 documentando vulnerabilidades e medidas corretivas adotadas. O uso de
@@ -755,6 +766,7 @@ ferramentas especializadas em análise de vulnerabilidades auxilia na detecção
 falhas antes que possam ser exploradas. Além disso, deve ser estabelecido um
 plano de resposta a incidentes para garantir ações ágeis e eficazes diante de
 eventuais violações de segurança.
+
 A capacitação dos colaboradores desempenha um papel fundamental na
 segurança da informação. Treinamentos frequentes sobre boas práticas, gestão de
 senhas e atualizações de sistemas são essenciais. Simulações de ataques podem
