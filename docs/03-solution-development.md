@@ -4,13 +4,13 @@
 
  3.6.1. Estrutura Tecnológica Adotada
 A arquitetura proposta para o sistema de Business Intelligence contempla três componentes principais:
-Armazenamento de dados: Banco de dados relacional MySQL Flexível (Azure).
+**Armazenamento de dados:** Banco de dados relacional MySQL Flexível (Azure).
 
 
-Transformação de dados: Ferramenta de transformação dbt Core (versão CLI).
+**Transformação de dados:** Ferramenta de transformação dbt Core (versão CLI).
 
 
-Visualização de dados: Power BI Desktop para criação de dashboards locais.
+**Visualização de dados:** Power BI Desktop para criação de dashboards locais.
 
 Essa estrutura foi escolhida por sua compatibilidade com a nuvem, escalabilidade progressiva e uso gratuito de ferramentas open-source. Além disso, o volume atual de dados da empresa é relativamente pequeno, com aproximadamente 800MB de dados, o que permite iniciar a operação com uma configuração leve e de baixo custo.
 
