@@ -1,4 +1,4 @@
-# PROJETO ELETRONIC GAMES
+# Projeto de Inteligência Competitiva para Assistência Técnica de Videogames
 
 `CURSO: Sistemas de Informação`
 
@@ -6,8 +6,7 @@
 
 `SEMESTRE: 8º`
 
-Com a revolução da Indústria 4.0, torna-se cada vez mais relevante que as empresas estejam preparadas para o mercado, o que implica a otimização de seus processos e equipes. Independentemente do tamanho da empresa, é essencial ter uma visão estratégica para atender com eficiência à demanda dos clientes atuais e, ao mesmo tempo, expandir sua participação no mercado.
-
+O projeto propõe o desenvolvimento de uma solução estratégica para uma empresa de assistência técnica em videogames, com foco em inteligência competitiva e análise de dados. A iniciativa visa melhorar a eficiência operacional, apoiar a tomada de decisões e alinhar a tecnologia da informação aos objetivos de negócio.
 
 ## Integrantes
 
@@ -18,17 +17,15 @@ Com a revolução da Indústria 4.0, torna-se cada vez mais relevante que as emp
 * Rafael Machado Bueno
 * Gabriella Victória da Silveira Pecsén
 
-
 ## Orientador
 
 * Simone Fernandes Queiroz
 
 # Etapas do projeto
 
-| Etapa         | Atividades |
-|  :----:   | ----------- |
-| ETAPA 1         |[Definição empresarial e análise de mercado](docs/01-company-definition-and-market-analysis.md) <br> |
-| ETAPA 2         |[Plano de inteligência competitiva](docs/02-competitive-intelligence-plan.md) <br> |
-| ETAPA 3         |[Desenvolvimento da solução](docs/03-solution-development.md) |
-| ETAPA 4         |  |
-
+| Etapa   | Atividades |
+| :----:  | ----------- |
+| ETAPA 1 | [Definição empresarial e análise de mercado](docs/01-company-definition-and-market-analysis.md) |
+| ETAPA 2 | [Plano de inteligência competitiva](docs/02-competitive-intelligence-plan.md) |
+| ETAPA 3 | [Desenvolvimento da solução](docs/03-solution-development.md) |
+| ETAPA 4 | [Planejamento estratégico de TI](docs/04-it-strategic-planning.md) |
