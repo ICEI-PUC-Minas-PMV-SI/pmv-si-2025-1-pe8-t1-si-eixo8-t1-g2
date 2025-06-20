@@ -1,4 +1,5 @@
 # 4. PETI, GOVERNANÇA E AUDITORIA DE TI
+
 ## 4.1. PETI (Plano Estratégico de Tecnologia da Informação)
 O Plano Estratégico de Tecnologia da Informação (PETI) tem como finalidade dar continuidade ao uso estratégico da TI na Eletronic Games, apoiando a gestão da empresa com informações confiáveis e relevantes, geradas a partir de seus próprios dados operacionais. A TI deve contribuir diretamente para a melhoria da eficiência dos serviços, da tomada de decisão baseada em dados e da organização dos processos internos.
 
@@ -13,7 +14,7 @@ O Plano Estratégico de Tecnologia da Informação (PETI) tem como finalidade da
 - Engajamento da gestão com a cultura orientada a dados;
 - Existência de controle de acesso por nível de usuário no ERP;
 - Realização de backups diários do banco de dados.
-- 
+ 
 ## Limitações enfrentadas:
 
 - O servidor local usa Windows Vista e MySQL 5, o que inviabilizou o uso de ferramentas modernas como Python;
@@ -75,7 +76,7 @@ Para avaliar a evolução da TI e o impacto do BI na operação da Eletronic Gam
 - Redução da Taxa de Retrabalho (TR);
 - Taxa de sucesso da ingestão automatizada;
 - Percentual de senhas protegidas por criptografia;
- - Percentual de campos livres transformados em categorias;
+- Percentual de campos livres transformados em categorias;
 - Aumento no uso dos indicadores de produção, técnicos e faturamento nas decisões.
 
 ## 4.2 Auditoria e Governança de TI
@@ -170,7 +171,7 @@ A Eletronic Games estrutura sua proteção cibernética segundo os cinco pilares
 
 
 
-REFERÊNCIAS
+## REFERÊNCIAS
 
 ELETRONIC GAMES ASSISTÊNCIA TÉCNICA. Site oficial. Disponível em: 22 fev. 2025.
 KIMBALL, Ralph; ROSS, Margy. The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling. 3. ed. Indianapolis: Wiley Publishing, 2013.
