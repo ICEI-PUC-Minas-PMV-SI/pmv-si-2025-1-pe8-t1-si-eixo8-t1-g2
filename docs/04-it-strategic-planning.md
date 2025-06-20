@@ -126,8 +126,10 @@ Governance Domain – EDM (Evaluate, Direct, Monitor)
 
 EDM01 – Estrutura de governança definida:
 PETI documentado com responsabilidades, metas e prioridades. Governança simplificada, acessível e alinhada ao porte da empresa.
+
 EDM02 – Entrega de benefícios:
 Dashboards operacionais entregam valor direto à empresa. Métricas relevantes são usadas na operação e gestão.
+
 EDM03 – Riscos otimizados:
 Problemas com dump, segurança de senhas, campos desestruturados e backups foram resolvidos.
  Plano de contingência implementado.
