@@ -89,31 +89,36 @@ A norma ISO/IEC 38500 orienta a governança de TI com base em 6 princípios:
 
 1. Responsabilidade
 
-Responsáveis definidos para rotinas de backup, ingestão de dados, dashboards e infraestrutura;
-Presença de controle de acesso por nível no sistema ERP;
-Papéis técnico e administrativo estabelecidos para garantir continuidade.
+- Responsáveis definidos para rotinas de backup, ingestão de dados, dashboards e infraestrutura;
+- Presença de controle de acesso por nível no sistema ERP;
+- Papéis técnico e administrativo estabelecidos para garantir continuidade.
+  
 2. Estratégia
 
-PETI com objetivos de curto, médio e longo prazo;
-Diretrizes estratégicas incluem migração do banco local para o Azure (MySQL 8 + InnoDB), automação com dbt e Power BI, criptografia de senhas, categorização de campos e orquestração de dados com Airflow ou Azure Data Factory.
+- PETI com objetivos de curto, médio e longo prazo;
+- Diretrizes estratégicas incluem migração do banco local para o Azure (MySQL 8 + InnoDB), automação com dbt e Power BI, criptografia de senhas, categorização de campos e orquestração de dados com Airflow ou Azure Data Factory.
+  
 3. Aquisição
 
-Ferramentas escolhidas de acordo com orçamento: Power BI, dbt, MySQL, scripts .bat;
-Proposta de migração para scripts Python e uso futuro de orquestradores;
-Armazenamento seguro (Azure Storage, Google Drive, etc).
+- Ferramentas escolhidas de acordo com orçamento: Power BI, dbt, MySQL, scripts .bat;
+- Proposta de migração para scripts Python e uso futuro de orquestradores;
+- Armazenamento seguro (Azure Storage, Google Drive, etc).
+
 4. Desempenho
 
-Indicadores monitorados: TMR, retrabalho, ingestão, usuários ativos, segurança, categorização;
-Revisões periódicas para manter alinhamento da TI com o negócio.
+- Indicadores monitorados: TMR, retrabalho, ingestão, usuários ativos, segurança, categorização;
+- Revisões periódicas para manter alinhamento da TI com o negócio.
+
 5. Conformidade
 
-Correção de falhas críticas como criptografia, engine de banco, codificação, backup validado;
-Alinhamento com boas práticas e aderência básica à LGPD.
+- Correção de falhas críticas como criptografia, engine de banco, codificação, backup validado;
+- Alinhamento com boas práticas e aderência básica à LGPD.
+
 6. Comportamento humano
 
-Manual de uso e vídeo tutorial para novos colaboradores;
-Treinamentos e incentivo à cultura orientada a dados;
-BI como ferramenta ativa na rotina de decisões.
+- Manual de uso e vídeo tutorial para novos colaboradores;
+- Treinamentos e incentivo à cultura orientada a dados;
+- BI como ferramenta ativa na rotina de decisões.
 
 ## Modelo baseado no COBIT
 
